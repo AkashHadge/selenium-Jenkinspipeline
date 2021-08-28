@@ -1,6 +1,6 @@
 node {
 	stage ('SCM checkout'){
-		git "https://github.com/puneetbhatia77/selenium-Jenkinspipeline"
+		git "https://github.com/AkashHadge/selenium-Jenkinspipeline"
 		}
 	stage ('Build'){
     	dir("comtest") {
